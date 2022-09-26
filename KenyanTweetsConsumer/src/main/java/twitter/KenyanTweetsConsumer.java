@@ -43,7 +43,7 @@ import java.util.Map;
 
 public class KenyanTweetsConsumer {
 	public static JavaSparkContext sparkContext;
-	private static final String TABLE_NAME = "tblTweet";
+	private static final String TABLE_NAME = "tweet";
 
 	@SuppressWarnings("deprecation")
 	public static void main(String[] args) throws ExecutionException, InterruptedException {
